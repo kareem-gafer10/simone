@@ -45,7 +45,8 @@ a {
   align-items: center;
 }
 .special-title h1 {
-  color: #dee3e4;
+  font-weight: bold;
+  color: #f2f4f4;
   font-size: 8rem;
   text-transform: uppercase;
 }
@@ -69,16 +70,15 @@ a {
 
 @media (min-width: 577px) and (max-width: 768px) {
   .special-title h1 {
-    color: #f2f4f4;
     font-size: 6rem;
-    text-transform: uppercase;
   }
 }
 @media (max-width: 576px) {
   .special-title h1 {
-    color: #f2f4f4;
     font-size: 4rem;
-    text-transform: uppercase;
+  }
+  .special-title p {
+    font-size: 1.5rem;
   }
 }
 
@@ -557,7 +557,7 @@ nav .humburger .line {
 
 @media (max-width: 768px) {
   .header .caption h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 }
 
@@ -565,7 +565,7 @@ nav .humburger .line {
   font-size: 1.5rem;
 }
 .header .caption p:nth-of-type(2) {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .header .caption .btn-general {
   margin-top: 25px;
@@ -645,6 +645,15 @@ nav .humburger .line {
   .about .about-left,
   .about .about-right {
     width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .about .special-title h1 {
+    font-size: 3.7rem;
+  }
+  .about .special-title p {
+    font-size: 1.2rem;
   }
 }
 
@@ -942,7 +951,10 @@ nav .humburger .line {
 
 @media (max-width: 600px) {
   .testimonial .special-title h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
+  }
+  .testimonial .special-title p {
+    font-size: 1.1rem;
   }
 }
 
@@ -1120,6 +1132,9 @@ textarea {
   }
   .contact .contact-right .form-control input {
     margin: 10px 0;
+  }
+  .contact .special-title p {
+    font-size: 1.1rem;
   }
 }
 
